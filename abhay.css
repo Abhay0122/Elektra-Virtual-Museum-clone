@@ -1,0 +1,445 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 150%;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+nav{
+    height: 18%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+nav > h1{
+    font: 700 6vmax "Montserrat";
+    line-height: 88%;
+    /* word-spacing: 7px; */
+    /* letter-spacing: 4px; */
+    margin: 9px 0 0 11px;
+}
+
+nav > h2{
+    font: 550 1.7vmax "gilroy";
+    margin: 1vmax 0 0 -13vmax;
+    text-decoration: none;
+    /* transition: 1s cubic-bezier(.22,.21,.74,.73) all; */
+}
+
+nav > h2:hover{
+    text-decoration: underline;
+}
+
+nav > button{
+    border: none;
+    background-color: transparent;
+    font: 550 1.5vmax "gilroy";
+    margin: 1vmax 1.5vmax 0 0;
+}
+
+nav > button > span{
+    text-decoration: none;
+}
+
+nav > button > span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.content{
+    height: 138%;
+    width: 100%;
+    /* background-color: red; */
+}
+
+.video_1{
+    margin: 0 0 0 1.1vmax;
+    width: 200px;
+}
+
+.video_2{
+    width: 500px;
+    position: absolute;
+    right: 1%;
+    top: 80%;
+}
+
+.content > h1{
+    position: absolute;
+    text-align: center;
+    transform: translate(14%,-10%);
+    font: 700 8vmax "Montserrat";
+    letter-spacing: 0%;
+    word-spacing: 0%;
+    line-height: 85%;
+    z-index: 4;
+}
+
+.container_1{
+    height: 70%;
+    width: 100%;
+    /* overflow: hidden;   */
+}
+.content_1 > p{
+    position: absolute;
+    top: 115%;
+    margin: 0 0 0 1.1vmax;
+    font: 600 1.5vmax "gilroy";
+
+}
+
+.content_1 > img{
+    position: absolute;
+    top: 140%;
+    /* transform: skew(0deg); */
+    transform: rotatey(0deg);
+    transition: 0.6s linear all;
+}
+
+.content_1 > img:hover{
+    /* transform: skew(-20deg); */
+    transform: rotatey(-35deg);
+    cursor: grab;
+}
+
+.container_2{
+    width: 100%;
+    height: 188%;
+    /* background-color: red; */
+    position: relative;
+}
+
+.content_2{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.content_2 > img{
+    width: 850px;
+    margin: 12vmax 0 0 0;
+}
+
+.content_2 > h1{
+    position: absolute;
+    text-align: center;
+    top: 34vmax;
+    font: 700 8.5vmax "Montserrat";
+    line-height: 90%;
+}
+
+.content_2 > p {
+    margin-top: 26vmax;
+    font: 200 2.5vmax "IbarraRealNova-Medium";
+    text-align: center;
+    word-spacing: 0vmax;
+}
+
+.container_3{
+    height: 120%;
+    width: 100%;
+    /* background-color: red; */
+}
+
+.content_3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_3 > img {
+    width: 450px;
+    margin: 0.5vmax 0 0.8vmax 0;
+}
+
+
+.content_3 > p{
+    font: 300 1.1vmax "gilroy";
+}
+
+.content_3 > button{
+    margin: 1vmax 0 0 -26vmax;
+    padding: 0.4vmax;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 4px;
+    color: black;
+}   
+
+.content_3 > button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.container_4{
+    height: 130%;
+    width: 100%;
+}   
+
+.content_4 > img{
+    width: 450px;
+    margin: 0 0 13% 35%;
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.text > p {
+    font: 700 2.7vmax "gilroy"; 
+    line-height: 93%;   
+    margin: 0 3vmax 0 1.5vmax;
+}
+
+.container_5{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;    
+}
+
+.content_5 > h1{
+    font: 500 3vmax "IbarraRealNova-Medium";
+}
+
+.content_5 > h1 > span{
+    font: 550 9vmax "gilroy";
+    line-height: 90%;
+}
+
+.container_6{
+    height: 105%;
+    width: 100%;
+    /* background-color: red; */
+    position: relative;
+    overflow: hidden;
+}
+
+.header{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content_6{
+    width: 100%;
+    height: 95%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content_6 > img{
+    width: 1080px;
+}
+
+.header > h1{
+    font: 600 3.5vmax "gilroy";
+    margin: 0 1vmax 0.5vmax 1vmax;
+}
+
+.content_6 > button{
+    position: absolute;
+    top: 87.3%;
+    left: 88.2%;
+    transform: translate(-50%,-50%);
+    padding: 0.4vmax 0.7vmax;
+    font: 400 1vmax "gilroy";
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: transparent;
+    color: black;
+}
+
+.content_6 > button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.content_6 > p{
+    font: 500 1.1vmax "gilroy";
+}
+
+.container_7{
+    height: 110%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    text-align: center;
+}
+
+.container_7 > h1{
+    font: 700 9vmax "gilroy";
+    line-height: 90%;
+}
+
+.container_7 > p{
+    margin: 2vmax 0;
+    font: 500 1.1vmax "gilroy";
+}
+
+.container_7 > button{
+    padding: 0.4vmax 0.7vmax;
+    font: 400 1vmax "gilroy";
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: transparent;
+    color: black;
+}
+
+.container_7 > button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.container_8{
+    width: 100%;
+    height: 150%;
+    position: relative;
+}
+
+.img_1{
+    width: 300px;
+    position: absolute;
+    z-index: 2;
+    top: 0%;
+    /* background-color: blue; */
+}
+
+.content_7 > h1{
+    font: 600 10vmax "gilroy";
+    line-height: 90%;
+    position: absolute;
+    top: 21%;
+}
+
+.content_7{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center ;
+    text-align: center;
+}
+
+.img_2{
+    width: 220px;
+    position: absolute;
+    top: 40.5%;
+
+}
+
+.content_7 > p {
+    position: absolute;
+    top: 76%;
+    font: 400 1.2vmax "gilroy";
+}
+
+.content_7 > button{
+    position: absolute;
+    top: 86.7%;
+    padding: 0.4vmax 0.7vmax;
+    font: 500 2.1vmax "IbarraRealNova-Medium";
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: transparent;
+    color: black;
+}
+
+
+.content_7 > button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+footer{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.unorderlist_1{
+    font: 500 1.2vmax "gilroy";
+    list-style-type: none;
+    margin: 0 0 2vmax 2vmax;   
+}
+
+.unorderlist_1 > li{
+    margin: 0 0 0.5vmax 0;
+    text-decoration: none;
+}
+
+
+.unorderlist_1 > li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.unorderlist_2{
+    font: 500 1.2vmax "gilroy";
+    list-style-type: none;
+    margin: 0 0 2vmax -9vmax; 
+    text-decoration: none;  
+}
+
+.unorderlist_2 > li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.unorderlist_2 > li{
+    margin: 0 0 0.5vmax 0;
+}
+
+footer > h1{
+    font: 700 1.5vmax "Berkshire Swash";
+    margin: 0 0 2.5vmax -22vmax;
+    text-align: center;
+}
+
+footer > p{
+    margin: 0 0 2vmax 0;
+} 
+
+footer > p > span{
+    font: 500 1.2vmax "gilroy";
+    text-decoration: none;  
+}
+
+footer > p > span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
